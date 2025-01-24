@@ -1,0 +1,55 @@
+.container-indicadores{
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    top: 1000px;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+    margin: auto;
+}
+@media(max-width:430px){
+    .container-indicadores{
+        flex-direction: column;
+        top: 680px;
+    }
+}
+
+.indicadores-box{
+    background-color: #004f9e;
+    border-radius: 10px;
+    padding: 0px 15px;
+    width: 180px;
+    height: 170px;
+}
+@media(max-width:1440px){
+    .indicadores-box{
+        max-width: 150px;
+        max-height: 140px;
+
+    }
+}
+@media(max-width:430px){
+    .indicadores-box{
+    max-width: 180px;
+    max-height: 170px;
+    }
+
+}
+
+
+@media(max-width: 1440px){
+    .numeros-indicadores{
+        font-size: 40px;
+    }
+}
+@media(max-width:430px){
+    .numeros-indicadores{
+        font-size: 50px;
+    }
+}
+
+
+#desc-indicadores{
+    justify-self: center;
+}

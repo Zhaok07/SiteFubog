@@ -3,6 +3,7 @@ import BarraMenu from './Componentes/BarraMenu'
 import FotoOlho from './Componentes/FotoOlho'
 import TituloHome from "./Componentes/TituloHome"
 import './PaginaHome.css'
+import Indicadores from "./Componentes/Indicadores"
 
 function PaginaHome(){
     return(
@@ -11,6 +12,7 @@ function PaginaHome(){
         <TituloHome/>
         <ScrollTop/>
         <FotoOlho/>
+        <Indicadores/>
         
 
 
