@@ -7,8 +7,9 @@
     background-color: #004f9e;
     z-index: 1;
 }
-@media(max-width: 414px){
+@media(max-width: 430px){
     .barra-menu{
+        height: 250px;
         
     }
 }
@@ -21,20 +22,29 @@
     gap: 10px;
     margin: auto;
 }
+@media(max-width:430px){
+    .container-logos{
+        top: 10px;
+        gap: 60px;
+    }
+}
 .container-pages{
     position: fixed;
     display: flex;
     align-items: center;
     gap: 30px;
     top: 50px;
-    left: 500px;
-    @media(max-width: 1680px){
+    left: 500px;   
+}
+@media(max-width: 1680px){
+    .container-pages{
         left: 800px;
-        
     }
 }
-@media(max-width: 414px){
+
+@media(max-width: 430px){
     .container-pages{
-        left: 50px;
+        top: 140px;
+        left: 30px;
     }
 }

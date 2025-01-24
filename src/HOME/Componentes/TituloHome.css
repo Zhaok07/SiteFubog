@@ -11,6 +11,12 @@
     white-space: nowrap;
 }
 
+@media(max-width:430px){
+    .TituloHome{
+        top: 260px;
+    }
+}
+
 @media (max-width: 1440px) {
     #titulo-home {
         font-size: 50px;
