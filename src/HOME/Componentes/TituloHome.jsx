@@ -1,4 +1,4 @@
-import "./Titulohome.css"
+import "./TituloHome.css"
 function TituloHome(){
     return(
         <div className="TituloHome">

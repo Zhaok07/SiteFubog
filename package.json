@@ -4,13 +4,17 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zhaok07/SiteFubog.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "git-pages -d dist "
+    "deploy": "gh-pages -d dist "
   },
   "dependencies": {
     "react": "^18.3.1",
