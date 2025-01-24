@@ -1,0 +1,25 @@
+#foto-olho{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 450px;
+    height: 600px;
+    width: 1000px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+@media(max-width:1440px){
+    #foto-olho{
+        max-width: 900px;
+    }
+
+}
+
+@media(max-width: 414px){
+    #foto-olho{
+        width: 380px;
+        height: auto;
+        left: 195px;
+    }
+}

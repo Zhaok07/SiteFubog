@@ -1,5 +1,11 @@
 #logo-lions{
     padding: 10px;
     width: auto;
-    height: 70px;
+    height: 90px;
+}
+
+@media(max-width:414px){
+    #logo-lions{
+
+    }
 }
