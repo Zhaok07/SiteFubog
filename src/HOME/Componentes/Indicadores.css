@@ -8,12 +8,21 @@
     color: white;
     margin: auto;
 }
+@media(max-width:712px){
+    .container-indicadores{
+        flex-direction: column;
+        top: 850px;
+    }
+}
 @media(max-width:430px){
     .container-indicadores{
         flex-direction: column;
         top: 680px;
     }
 }
+
+
+
 
 .indicadores-box{
     background-color: #004f9e;
@@ -36,11 +45,23 @@
     }
 
 }
+@media(max-width:712px){
+    .indicadores-box{
+    max-width: 180px;
+    max-height: 170px;
+    }
+
+}
 
 
 @media(max-width: 1440px){
     .numeros-indicadores{
         font-size: 40px;
+    }
+}
+@media(max-width:712px){
+    .numeros-indicadores{
+        font-size: 50px;
     }
 }
 @media(max-width:430px){
