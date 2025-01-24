@@ -11,7 +11,7 @@
 @media(max-width:712px){
     .container-indicadores{
         flex-direction: column;
-        top: 850px;
+        top: 820px;
     }
 }
 @media(max-width:430px){
