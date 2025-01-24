@@ -1,5 +1,5 @@
 .barra-menu{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -15,7 +15,7 @@
 }
 
 .container-logos{
-    position: fixed;
+    position: absolute;
     display: flex;
     top: 0;
     left: 20px;
@@ -29,7 +29,7 @@
     }
 }
 .container-pages{
-    position: fixed;
+    position: absolute;
     display: flex;
     align-items: center;
     gap: 30px;
