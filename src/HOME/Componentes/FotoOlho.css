@@ -16,10 +16,10 @@
 
 }
 
-@media(max-width: 414px){
+@media(max-width: 430px){
     #foto-olho{
         width: 380px;
         height: auto;
-        left: 195px;
+        margin: auto;
     }
 }

@@ -17,7 +17,7 @@
     }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 430px) {
     #titulo-home {
         font-size: 22px;
         
@@ -30,7 +30,7 @@
     
 }
 
-@media(max-width:414px){
+@media(max-width:430px){
     #sub-titulo-home{
         font-size: 17px;
     }
