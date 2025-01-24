@@ -13,7 +13,7 @@ export default defineConfig({
     },
   },
   server: {
-    base: "/teste",
+    base: "/SiteFubog",
     host: '0.0.0.0', // Permite conexões de qualquer IP
     port: 5173, // Ou qualquer porta que você preferir
     strictPort: true, // Garante que a porta escolhida seja usada, sem tentar outras portas
