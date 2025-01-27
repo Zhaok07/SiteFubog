@@ -12,6 +12,7 @@
     .container-indicadores{
         top: 950px;    
     }
+}
 @media(max-width:712px){
     .container-indicadores{
         flex-direction: column;

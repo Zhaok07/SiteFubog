@@ -12,6 +12,7 @@
     .barra-menu{
         height: 160px;    
     }
+}
 @media(max-width: 712px){
     .barra-menu{
         height: 180px;
@@ -76,4 +77,3 @@
         left: 30px;
     }
 }
-}/*Verificar*/
