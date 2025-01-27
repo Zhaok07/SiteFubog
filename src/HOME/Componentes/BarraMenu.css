@@ -7,11 +7,17 @@
     background-color: #004f9e;
     z-index: 1;
 }
+/*14 ProMax na horizontal*/
+@media(max-width:932px){
+    .barra-menu{
+        height: 160px;    
+    }
 @media(max-width: 712px){
     .barra-menu{
         height: 180px;
     }
 }
+
 
 
 
@@ -42,6 +48,21 @@
         left: 800px;
     }
 }
+/*Tab S4 na horizontal*/
+@media(max-width:1138px){
+    .container-pages{
+        left: 400px;
+        
+    }
+}
+/*14 ProMax na horizontal*/
+@media(max-width:932px){
+    .container-pages{
+        top: 120px;
+        left: 30px;
+    }
+
+}
 @media(max-width:712px){
     .container-pages{
         top: 130px;
@@ -55,3 +76,4 @@
         left: 30px;
     }
 }
+}/*Verificar*/

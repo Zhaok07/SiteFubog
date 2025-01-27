@@ -42,6 +42,7 @@ const ScrollTop = () => {
         padding: '10px 20px',
         borderRadius: '5px',
         fontSize: '16px',
+        zIndex: '1',
         cursor: 'pointer',
         display: isVisible ? 'block' : 'none', // Exibe ou esconde o botão
       }}
