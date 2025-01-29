@@ -4,7 +4,7 @@ import './LinkOuvidoria.css'
 function LinkOuvidoria(){
     return(
         <div>
-            <Link to="/ouvidoria" id="link-ouvidoria">OUVIDORIA</Link>
+            <Link to="/ouvidoria" id="link-ouvidoria">TESTE</Link>
         </div>
     )
 }

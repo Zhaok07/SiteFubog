@@ -3,7 +3,7 @@ import BarraMenu from '../HOME/Componentes/BarraMenu'
 function PaginaOuvidoria(){
     return(
         <div>
-            <p>pagina ouvidoria</p>
+            <p>pagina teste</p>
             <BarraMenu/>
         </div>
     )
