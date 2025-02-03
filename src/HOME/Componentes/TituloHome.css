@@ -1,24 +1,29 @@
 .TituloHome{
-    position: absolute;
+    /*position: absolute;
     top: 180px;
     left: 50%;
-    transform: translate(-50%);
+    transform: translate(-50%);*/
+    max-width: 900px;
+    height: auto;
+    margin-top: 200px;
+
 }
 
 #titulo-home {
     font-size: 60px;
     color: #004f9e;
     white-space: nowrap;
-    margin: auto;
 }
 @media(max-width:712px){
     .TituloHome{
         top: 240px;
+        max-width: 600px;
     }
 }
 @media(max-width:430px){
     .TituloHome{
         top: 220px;
+        max-width: 400px;
     }
 }
 
@@ -48,6 +53,7 @@
 
 #sub-titulo-home{
     font-size: 22px;
+    
     
 }
 

@@ -1,0 +1,39 @@
+
+
+.container-formulario{
+    /*position: absolute;
+    top: 2350px;
+    left: 50%;
+    transform:  translate(-50%);*/
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color:#004f9e;
+    padding: 40px;
+    font-size: 22px;
+    color: white;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+input  {
+    width: 100%; /* Ajusta a largura para 100% do container (responsivo) */
+    padding: 10px; /* Adiciona espaço dentro do campo */
+    font-size: 16px; /* Ajusta o tamanho da fonte */
+    border-radius: 4px; /* Bordas arredondadas */
+    border: 1px solid #ccc; /* Define a cor da borda */
+    box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
+  }
+  textarea{
+    width: 100%; /* Ajusta a largura para 100% do container (responsivo) */
+    height: 10vh;
+    padding: 10px  10px; /* Adiciona espaço dentro do campo */
+    font-size: 16px; /* Ajusta o tamanho da fonte */
+    border-radius: 4px; /* Bordas arredondadas */
+    border: 1px solid #ccc; /* Define a cor da borda */
+    box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
+
+  }

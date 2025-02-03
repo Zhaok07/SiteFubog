@@ -5,6 +5,7 @@ import TituloHome from "./Componentes/TituloHome"
 import './PaginaHome.css'
 import Indicadores from "./Componentes/Indicadores"
 import PalavraPresidente from "./Componentes/PalavraPresidente"
+import ContactForm from "./Componentes/ContactForm"
 
 function PaginaHome(){
     return(
@@ -21,16 +22,17 @@ function PaginaHome(){
         <ScrollTop/>
             </div>
             
-            <div>
+            <div className="container-foto-indicadores">
         <FotoOlho/>
-            </div>
-
-            <div>
         <Indicadores/>
             </div>
 
             <div>
         <PalavraPresidente/>
+            </div>
+
+            <div>
+        <ContactForm/>
             </div>
         </div>
     )
