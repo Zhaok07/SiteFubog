@@ -1,0 +1,56 @@
+.container-rodape{
+    position: absolute;
+    width:100%;
+    height: 220px;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    background-color: #004f9e;
+
+}
+
+.container-redes-socias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+    
+}
+
+#icon-redes-socias{
+    width: 14px;
+    height: auto;
+    background-color: white;
+    color: #004f9e;
+    padding: 12px 12px;
+    border-radius: 50px;
+}
+
+.container-rodape-location{
+display: flex;
+justify-content: center;
+}
+#texto-location{
+    color: white;
+}
+
+.container-contatos{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: -20px;
+}
+.box-contatos{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 17px;
+    color: white;
+}
+
+@media(max-width: 430px){
+#texto-location{
+    max-width: 400px;
+}
+}

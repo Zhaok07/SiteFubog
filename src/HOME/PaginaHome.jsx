@@ -6,6 +6,7 @@ import './PaginaHome.css'
 import Indicadores from "./Componentes/Indicadores"
 import PalavraPresidente from "./Componentes/PalavraPresidente"
 import ContactForm from "./Componentes/ContactForm"
+import Rodape from "./Componentes/Rodape"
 
 function PaginaHome(){
     return(
@@ -33,6 +34,10 @@ function PaginaHome(){
 
             <div>
         <ContactForm/>
+            </div>
+
+            <div>
+        <Rodape/>     
             </div>
         </div>
     )
