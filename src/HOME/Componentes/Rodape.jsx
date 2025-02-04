@@ -56,9 +56,10 @@ function Rodape() {
         <h4>(62) 3219-4100</h4>
             </div>
             <div className="box-contatos">
-        <a href="mailto:"></a>
         <MdOutlineMail />
-        <h4>fubog@fubog.org</h4>
+        <a href="mailto:fubog@fubog.org">
+        <h4 id="contact-email">fubog@fubog.org</h4>
+        </a>
             </div>
         </div>
 

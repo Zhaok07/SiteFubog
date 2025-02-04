@@ -38,3 +38,10 @@
         margin-top:-100px;
     }
 }
+
+@media(max-width:390px){
+    #foto-olho{
+        width: 350px;
+        height: auto;
+    }
+}

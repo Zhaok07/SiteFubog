@@ -26,6 +26,11 @@
         width: 380px;
     }
 }
+@media(max-width:390px){
+    .TituloHome{
+        width: 350px;
+    }
+}
 
 @media (max-width: 1440px) {
     #titulo-home {

@@ -116,7 +116,7 @@ const ContactForm = () => {
         onChange={handleCaptchaChange} // Atualiza o estado quando o reCAPTCHA for completado
       />
  
-      <button type="submit">Enviar</button>
+      <button type="submit" id="botao-envio-form">Enviar</button>
       </div>
     </form>
   );

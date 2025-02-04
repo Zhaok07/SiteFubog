@@ -49,8 +49,16 @@ justify-content: center;
     color: white;
 }
 
+#contact-email{
+    color: white;
+}
 @media(max-width: 430px){
 #texto-location{
     max-width: 400px;
 }
+}
+@media(max-width:390px){
+ #texto-location{
+    max-width: 350px;
+ }  
 }
