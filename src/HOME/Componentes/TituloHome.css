@@ -26,9 +26,9 @@
         width: 380px;
     }
 }
-@media(max-width:390px){
+@media(max-width:360px){
     .TituloHome{
-        width: 350px;
+        width: 320px;
     }
 }
 

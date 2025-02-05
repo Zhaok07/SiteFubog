@@ -56,15 +56,15 @@
     }
 }
 
-@media(max-width:390px){
+@media(max-width:360px){
     .container-palavra-presidente{
-        width: 320px;
+        width: 300px;
     }
    
 }
 @media(max-width:390px){
    #titulo-presidente{
-    font-size: 22px;
+    font-size: 21px;
    }
 }
 

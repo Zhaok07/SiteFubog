@@ -36,10 +36,10 @@
         gap: 60px;
     }
 }
-@media(max-width:390px){
+@media(max-width:360px){
     .container-logos{
         top: 10px;
-        gap: 40px;
+        gap: 20px;
     }
 }
 .container-pages{
