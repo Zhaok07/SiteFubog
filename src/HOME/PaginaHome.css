@@ -13,3 +13,9 @@ body{
     align-items: center;
     
 }
+
+.container-botoes-flutuantes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

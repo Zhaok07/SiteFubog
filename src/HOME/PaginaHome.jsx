@@ -7,6 +7,7 @@ import Indicadores from "./Componentes/Indicadores"
 import PalavraPresidente from "./Componentes/PalavraPresidente"
 import ContactForm from "./Componentes/ContactForm"
 import Rodape from "./Componentes/Rodape"
+import BotaoWhasapp from "./Componentes/BotaoWhatsapp"
 
 function PaginaHome(){
     return(
@@ -19,7 +20,8 @@ function PaginaHome(){
         <TituloHome/>
             </div>
 
-            <div>
+            <div className="container-botoes-flutuantes">
+        <BotaoWhasapp/>
         <ScrollTop/>
             </div>
             

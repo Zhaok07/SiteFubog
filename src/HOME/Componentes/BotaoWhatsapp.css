@@ -1,0 +1,17 @@
+.container-botao-whatsapp{
+    position: fixed;
+    right: 20px;
+    bottom: 60px;
+    z-index: 1;
+
+}
+
+#botao-whatsapp{
+    width: 35px;
+    height: auto;
+    color: white;
+    background-color: #25D366;
+    border-radius: 50px;
+    padding: 10px;
+    
+}
