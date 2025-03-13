@@ -4,8 +4,8 @@ import BarraTeste from './Componentes/BarraTeste'
 function PaginaOuvidoria(){
     return(
         <div>
+            <BarraMenu/>
             <p>pagina teste</p>
-            <BarraTeste/>
             
         </div>
     )

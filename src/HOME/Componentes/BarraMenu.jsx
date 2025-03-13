@@ -3,7 +3,6 @@ import LogoLions from "../Componentes/LogoLions"
 import LinkHome from "../Componentes/LinkHome"
 import LinkOuvidoria from "../../OUVIDORIA/Componentes/LinkOuvidoria"
 import '../Componentes/BarraMenu.css'
-import TituloHome from "./TituloHome"
 
 function BarraMenu(){
     return(
@@ -12,6 +11,10 @@ function BarraMenu(){
         <div className="container-pages">
         <LinkHome/>
         <LinkOuvidoria/>
+        <LinkOuvidoria/>
+        <LinkOuvidoria/>
+        <LinkOuvidoria/>
+
         </div>
 
 
