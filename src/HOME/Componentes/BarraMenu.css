@@ -20,8 +20,6 @@
 }
 
 
-
-
 .container-logos{
     position: absolute;
     display: flex;
@@ -34,6 +32,12 @@
     .container-logos{
         top: 10px;
         gap: 60px;
+    }
+}
+@media(max-width: 380px){
+    .container-logos{
+        left: 8px;
+        gap: 40px;
     }
 }
 @media(max-width:360px){
@@ -76,10 +80,14 @@
         left: 28px;
     }
 }
-
 @media(max-width: 430px){
     .container-pages{
         top: 130px;
         left: 30px;
+    }
+}
+@media(max-width: 380px){
+    .container-pages{
+        left: 15px;
     }
 }
