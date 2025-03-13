@@ -55,7 +55,11 @@
         white-space: nowrap;
     }
 }
-
+@media(max-width:375px){
+    .container-palavra-presidente{
+        width: 310px;
+    }
+}
 @media(max-width:360px){
     .container-palavra-presidente{
         width: 300px;

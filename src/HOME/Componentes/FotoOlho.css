@@ -39,6 +39,12 @@
     }
 }
 
+@media(max-width:375px){
+    #foto-olho{
+        width: 350px;
+    }
+}
+
 @media(max-width:360px){
     #foto-olho{
         width: 340px;
