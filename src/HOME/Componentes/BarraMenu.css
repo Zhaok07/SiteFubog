@@ -36,6 +36,13 @@ body{
         gap: 60px;
     }
 }
+
+@media(max-width:390px){
+    .container-logos{
+        left: 10px;
+    }
+}
+
 @media(max-width: 375px){
     .container-logos{
         gap: 40px;
@@ -86,6 +93,12 @@ body{
     .container-pages{
         top: 130px;
         left: 30px;
+    }
+}
+
+@media(max-width:390px){
+    .container-pages{
+        left: 20px;
     }
 }
 @media(max-width: 375px){

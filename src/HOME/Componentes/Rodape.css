@@ -58,6 +58,11 @@ justify-content: center;
 }
 }
 
+@media(max-width:390px){
+    #texto-location{
+        max-width: 350px;
+    }
+}
 @media(max-width:375px){
     #texto-location{
         max-width: 350px;

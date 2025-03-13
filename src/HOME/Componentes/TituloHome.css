@@ -26,6 +26,12 @@
         width: 380px;
     }
 }
+
+@media(max-width:390px){
+    .TituloHome{
+        width: 350px;
+    }
+}
 @media(max-width:375px){
     .TituloHome{
         width: 350px;
